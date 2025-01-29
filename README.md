@@ -9,12 +9,13 @@ Imagine you are teaching a friend about OOP. They mainly want to understand what
 * What is encapsulation?
 * What major goal does this help to achieve in software engineering?
 * Give an example (in code) of encapsulation.
+* An explanation of how the code example demonstrates encapsulation
 
 ### Response 1
 
 ## Prompt 2
 
-The following shows us an example of code that is **NOT** consistent and predictable:
+The following `friendsManager` object is an example of an interface that is **NOT** consistent and predictable:
 
 ```js
 const friendsManager = {
@@ -38,13 +39,15 @@ Explain how the code is not consistent or predictable, then provide an example i
 
 ## Prompt 3
 
-With OOP in JavaScript it's possible to use factory functions to achieve encapsulation and re-use them to make objects that look alike, however they have drawbacks and we often use classes instead. How would you explain to a budding developer what the drawbacks of using factory functions are and why it is better to use classes instead?
+With OOP in JavaScript, it's possible to use factory functions to achieve encapsulation and re-use them to make objects that look alike. However, factory functions have drawbacks and we often use classes instead. 
+
+How would you explain to a budding developer what the drawbacks of using factory functions are and why it is better to use classes instead?
 
 ### Response 3
 
 ## Prompt 4
 
-Do some research on when in the history of JavaScript classes were introduced into JavaScript and share your findings. Your response should include:
+Do some research on the history of when / how classes were introduced into JavaScript and share your findings. Your response should include:
 
 * What version of JavaScript were classes introduced in and when did it come out?
 * Why were classes introduced into JavaScript?
