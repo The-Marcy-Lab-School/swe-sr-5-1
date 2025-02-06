@@ -61,13 +61,13 @@ OOP can still be achieved in JavaScript without using the `class` keyword and in
 
 ```js
 function Person(name, age) {
- this.name = name;
- this.age = age;
+  this.name = name;
+  this.age = age;
 }
 
 
 Person.prototype.greet = function () {
- return `Hi, I'm ${this.name}, and I'm ${this.age} years old.`;
+  return `Hi, I'm ${this.name}, and I'm ${this.age} years old.`;
 };
 
 
