@@ -6,10 +6,10 @@ For guidance on setting up and submitting this assignment, refer to the Marcy la
 
 Imagine you are teaching a friend about OOP. They mainly want to understand what is Encapsulation. Write a brief lesson on Encapsulation that includes the following:
 
-* What is encapsulation?
-* What major goal does this help to achieve in software engineering?
-* Give an example (in code) of encapsulation.
-* An explanation of how the code example demonstrates encapsulation
+- What is encapsulation?
+- What major goal does this help to achieve in software engineering?
+- Give an example (in code) of encapsulation.
+- An explanation of how the code example demonstrates encapsulation
 
 ### Response 1
 
@@ -21,15 +21,15 @@ The following `friendsManager` object is an example of an interface that is **NO
 const friendsManager = {
  friends: [],
  addFriend(newFriend) {
-   if (typeof newFriend !== 'string') return;
+   if (typeof newFriend !== "string") return;
    this.friends.push(newFriend);
  }
 }
 
 
-friendsManager.addFriend('daniel');
+friendsManager.addFriend("daniel");
 friendsManager.addFriend(true);
-friendsManager.friends.push('emmaneul');
+friendsManager.friends.push("emmaneul");
 friendsManager.friends.push(42);
 ```
 
@@ -49,8 +49,8 @@ How would you explain to a budding developer what the drawbacks of using factory
 
 Do some research on the history of when / how classes were introduced into JavaScript and share your findings. Your response should include:
 
-* What version of JavaScript were classes introduced in and when did it come out?
-* Why were classes introduced into JavaScript?
+- What version of JavaScript were classes introduced in and when did it come out?
+- Why were classes introduced into JavaScript?
 
 
 ### Response 4
@@ -71,7 +71,7 @@ Person.prototype.greet = function () {
 };
 
 
-const alice = new Person('Alice', 30);
+const alice = new Person("Alice", 30);
 console.log(alice.greet());
 ```
 
