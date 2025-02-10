@@ -29,7 +29,7 @@ const friendsManager = {
 
 friendsManager.addFriend("daniel");
 friendsManager.addFriend(true);
-friendsManager.friends.push("emmaneul");
+friendsManager.friends.push("emmanuel");
 friendsManager.friends.push(42);
 ```
 
