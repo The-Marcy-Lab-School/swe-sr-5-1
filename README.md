@@ -39,7 +39,7 @@ Explain how the code is not consistent or predictable, then provide an example i
 
 ## Prompt 3
 
-With OOP in JavaScript, it's possible to use factory functions to achieve encapsulation and re-use them to make objects that look alike. However, factory functions have drawbacks and we often use classes instead. 
+With OOP in JavaScript, it's possible to use factory functions to achieve encapsulation and re-use them to make objects that look alike. However, factory functions have drawbacks and we often use classes instead.
 
 How would you explain to a budding developer what the drawbacks of using factory functions are and why it is better to use classes instead?
 
